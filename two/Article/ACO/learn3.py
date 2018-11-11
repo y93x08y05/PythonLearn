@@ -10,7 +10,7 @@ def plot_data(x1, y1):
     plt.subplots_adjust(bottom=0.15)
     plt.xlabel('迭代次数')
     plt.ylabel('任务完成时间')
-    plt.ylim(250, 300)
+    plt.ylim(200, 400)
     plt.title('基于蚁群算法的云计算任务调度')
     plt.show()
 
