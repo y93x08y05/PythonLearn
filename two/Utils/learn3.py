@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib as mpl
 from matplotlib.font_manager import FontManager
 
-
 custom_font = mpl.font_manager.FontProperties(fname=r"C:\Windows\Fonts\simhei.ttf", size=14)
 font_size = 10
 fig_size = (8, 6)
@@ -29,6 +28,7 @@ def add_labels(rects):
         height = rect.get_height()
         plt.text(rect.get_x() + rect.get_width() / 2, height, height, ha='center', va='bottom')
         rect.set_edgecolor('white')
+
 
 add_labels(rects1)
 add_labels(rects2)
